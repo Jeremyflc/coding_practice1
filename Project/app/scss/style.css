@@ -1,3 +1,7 @@
+.has-fade {
+  visibility: hidden;
+}
+
 @-webkit-keyframes fade-in {
   from {
     visibility: hidden;
@@ -8,6 +12,7 @@
     opacity: 0;
   }
   to {
+    visibility: visible;
     opacity: 1;
   }
 }
@@ -22,6 +27,7 @@
     opacity: 0;
   }
   to {
+    visibility: visible;
     opacity: 1;
   }
 }
@@ -200,6 +206,7 @@ button, .button {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   background: white;
+  margin-top: 1.5rem;
   padding: 1.625rem;
   border-radius: 5px;
 }
